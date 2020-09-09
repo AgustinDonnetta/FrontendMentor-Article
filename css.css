@@ -1,0 +1,114 @@
+body{
+    background: hsl(210, 46%, 95%);
+    font-size: 13px;
+    position: relative;
+     height: 100vh;
+     justify-content: center;
+     font-family: Manrope;
+}
+
+#main-page {
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    position: absolute;
+  }
+
+  
+  p{
+    color: hsl(214, 17%, 51%);
+    margin-top: 10px;
+    line-height: 2.0;
+    font-size: 0.9rem;
+  }
+ 
+  h1{
+    color: hsl(217, 19%, 35%);
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    padding-top: 5%;
+ }
+
+  .box{
+     display: flex;
+     margin: 0 20%;
+     background: white;
+     border-radius: 1rem;
+     max-width: 1450px;
+  }
+
+  .box-content{
+      margin: 0 2rem;
+  }
+
+  .drawer{
+      max-width: 46%;
+      border-radius: 1rem 0 0 1rem;
+      padding: 0%;
+  }
+
+  .avatar{
+      display: flex;
+      padding: 1rem 0;
+      align-items: center;
+      
+  }
+
+  .avatar img{
+      width: 50px;
+      height: 50px;
+      border-radius: 10rem;
+      align-items: center;
+  }
+
+  .share {
+    float: right;
+    width: 30px;
+    height: 30px;
+    background-color: hsl(210, 46%, 95%);
+    position: relative;
+    border-radius: 50%;
+    user-select: none;
+    margin-left: 100px;
+  }
+
+  .share svg {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .share-container {
+    background-color: hsl(217, 19%, 35%);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    display: none;
+    margin-right: 15%;
+    margin-bottom: 3%;
+  }
+
+  .share-container span {
+    color: hsl(212, 23%, 69%);
+    font-size:13px;
+    letter-spacing: 2px;
+  }
+
+  .share-container span,img {
+    padding: 0px 10px;
+  }
+
+  .avatar ul li {
+    line-height: 1.5;
+    list-style: none;
+  }
+
+  .bold-color{
+      font-weight: bold;
+  }
